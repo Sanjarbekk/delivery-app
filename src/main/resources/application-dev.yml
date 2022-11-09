@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    password: 1
+    username: postgres
+    url: jdbc:postgresql://localhost:5432/mydb
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+app:
+  api:
+    swagger:
+      enable: false
+
